@@ -1,10 +1,15 @@
 import * as React from 'react';
+import { Header } from '../components/Header';
 
 const MainPage = () => {
   return (
-    <main>
-      <h1>안녕하세요? Hello</h1>
-    </main>
+    <>
+      <Header />
+      <main>
+        {/* <HeroSection />
+        <CalloutSection /> */}
+      </main>
+    </>
   );
 };
 

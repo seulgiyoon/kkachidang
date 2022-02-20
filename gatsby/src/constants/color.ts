@@ -1,0 +1,11 @@
+export const BLACK = '#302F2E';
+export const WHITE = '#FFFFFF';
+export const GRAY = '#D3CDC2';
+export const CREAM = '#FFF8EC';
+export const YELLOW = '#F2C94C';
+export const GREEN = '#6EC793';
+export const RED = '#C25026';
+export const BLUE = '#5962B1';
+export const PINK = '#E798A5';
+export const BROWN = '#9B7D6B';
+export const PURPLE = '#704477';
