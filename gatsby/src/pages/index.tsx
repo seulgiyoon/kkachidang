@@ -3,7 +3,7 @@ import * as React from 'react';
 const MainPage = () => {
   return (
     <main>
-      <h1>홈</h1>
+      <h1>안녕하세요? Hello</h1>
     </main>
   );
 };
