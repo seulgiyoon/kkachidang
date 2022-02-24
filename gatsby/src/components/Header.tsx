@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { StaticImage } from 'gatsby-plugin-image';
-import { HEADER_HEIGHT } from '../constants/layout';
-import { URLS } from '../constants/url';
+import { HEADER_HEIGHT } from 'constants/layout';
+import { URLS } from 'constants/url';
 
 export const Header = () => {
   return (

@@ -1,13 +1,13 @@
 import { css } from '@emotion/react';
 
-import regularEot from '../assets/fonts/noto-serif-kr-v17-latin_korean-regular.eot';
-import regularSvg from '../assets/fonts/noto-serif-kr-v17-latin_korean-regular.svg';
-import regularWoff from '../assets/fonts/noto-serif-kr-v17-latin_korean-regular.woff';
-import regularWoff2 from '../assets/fonts/noto-serif-kr-v17-latin_korean-regular.woff2';
-import blackEot from '../assets/fonts/noto-serif-kr-v17-latin_korean-900.eot';
-import blackSvg from '../assets/fonts/noto-serif-kr-v17-latin_korean-900.svg';
-import blackWoff from '../assets/fonts/noto-serif-kr-v17-latin_korean-900.woff';
-import blackWoff2 from '../assets/fonts/noto-serif-kr-v17-latin_korean-900.woff2';
+import regularEot from 'assets/fonts/noto-serif-kr-v17-latin_korean-regular.eot';
+import regularSvg from 'assets/fonts/noto-serif-kr-v17-latin_korean-regular.svg';
+import regularWoff from 'assets/fonts/noto-serif-kr-v17-latin_korean-regular.woff';
+import regularWoff2 from 'assets/fonts/noto-serif-kr-v17-latin_korean-regular.woff2';
+import blackEot from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.eot';
+import blackSvg from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.svg';
+import blackWoff from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.woff';
+import blackWoff2 from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.woff2';
 
 export const GlobalStyle = css`
   /* noto-serif-kr-regular - latin_korean */
