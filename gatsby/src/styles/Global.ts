@@ -9,7 +9,7 @@ import blackSvg from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.svg';
 import blackWoff from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.woff';
 import blackWoff2 from 'assets/fonts/noto-serif-kr-v17-latin_korean-900.woff2';
 
-export const GlobalStyle = css`
+const GlobalStyle = css`
   /* noto-serif-kr-regular - latin_korean */
   @font-face {
     font-family: 'Noto Serif KR';
@@ -365,3 +365,5 @@ export const GlobalStyle = css`
     display: none;
   }
 `;
+
+export default GlobalStyle;

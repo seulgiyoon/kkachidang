@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Header } from 'components/Header';
+import Header from 'components/Header';
 
-const MainPage = () => {
+function MainPage() {
   return (
     <>
       <Header />
@@ -11,6 +11,6 @@ const MainPage = () => {
       </main>
     </>
   );
-};
+}
 
 export default MainPage;

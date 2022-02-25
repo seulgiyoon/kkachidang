@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { HEADER_HEIGHT } from 'constants/layout';
 import { URLS } from 'constants/url';
 
-export const Header = () => {
+function Header() {
   return (
     <Wrapper>
       <a href={URLS.Home}>
@@ -19,16 +19,16 @@ export const Header = () => {
       <nav>
         <NavUl>
           <li>
-            <a href="">소개</a>
+            <a href="/">소개</a>
           </li>
           <li>
-            <a href="">작업</a>
+            <a href="/">작업</a>
           </li>
         </NavUl>
       </nav>
     </Wrapper>
   );
-};
+}
 
 const Wrapper = styled.header`
   position: fixed;
@@ -49,3 +49,5 @@ const NavUl = styled.ul`
     margin-left: 37px;
   }
 `;
+
+export default Header;
