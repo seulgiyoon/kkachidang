@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { StaticImage } from 'gatsby-plugin-image';
 import { HEADER_HEIGHT } from 'constants/layout';
 import { URLS } from 'constants/url';
+import { pxToRem } from 'utils/common';
 
 function Header() {
   return (
@@ -37,7 +38,7 @@ const Wrapper = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: ${HEADER_HEIGHT}px;
+  height: ${pxToRem(HEADER_HEIGHT)};
   padding: 0 60px;
 `;
 
@@ -46,7 +47,7 @@ const NavUl = styled.ul`
   font-size: 1rem;
   font-weight: 900;
   li + li {
-    margin-left: 37px;
+    margin-left: ${pxToRem(37)};
   }
 `;
 

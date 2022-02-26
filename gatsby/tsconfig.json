@@ -14,7 +14,8 @@
       "assets/*": ["./assets/*"],
       "constants/*": ["./constants/*"],
       "pages/*": ["./pages/*"],
-      "styles/*": ["./styles/*"]
+      "styles/*": ["./styles/*"],
+      "utils/*": ["./utils/*"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,
