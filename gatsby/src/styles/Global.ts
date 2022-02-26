@@ -13,14 +13,14 @@ const GlobalStyle = css`
     font-style: normal;
     font-weight: 400;
     src: local('Noto Serif KR'), url(${regularWoff2}) format('woff2'),
-      url(${regularWoff}) format('woff'), url(${regularTtf}) format('ttf');
+      url(${regularWoff}) format('woff'), url(${regularTtf}) format('truetype');
   }
   @font-face {
     font-family: 'Noto Serif KR';
     font-style: normal;
     font-weight: 900;
     src: local('Noto Serif KR'), url(${blackWoff2}) format('woff2'),
-      url(${blackWoff}) format('woff'), url(${blackTtf}) format('ttf');
+      url(${blackWoff}) format('woff'), url(${blackTtf}) format('truetype');
   }
 
   * {
