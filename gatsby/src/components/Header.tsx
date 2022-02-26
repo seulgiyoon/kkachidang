@@ -3,10 +3,13 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { HEADER_HEIGHT } from 'constants/layout';
 import { URLS } from 'constants/url';
 import { pxToRem } from 'utils/common';
+import { css } from '@emotion/react';
+import { useGetHeaderBgColor } from './providers/HeaderBgColorProvider';
 
 function Header() {
+  const bgColor = useGetHeaderBgColor();
   return (
-    <Wrapper>
+    <Wrapper bgColor={bgColor}>
       <a href={URLS.Home}>
         <StaticImage
           src="../assets/images/logo_text.png"
@@ -31,7 +34,7 @@ function Header() {
   );
 }
 
-const Wrapper = styled.header`
+const Wrapper = styled.header<{ bgColor: string }>`
   position: fixed;
   top: 0;
   display: flex;
@@ -40,6 +43,10 @@ const Wrapper = styled.header`
   width: 100%;
   height: ${pxToRem(HEADER_HEIGHT)};
   padding: 0 60px;
+  ${({ bgColor }) => css`
+    background-color: ${bgColor};
+  `}
+  transition: background-color 300ms linear;
 `;
 
 const NavUl = styled.ul`

@@ -4,20 +4,21 @@ import Footer from 'components/main/Footer';
 import HeroSection from 'components/main/HeroSection';
 import NewsSection from 'components/main/NewsSection';
 import WorkSection from 'components/main/WorkSection';
+import { HeaderBgColorProvider } from 'components/providers/HeaderBgColorProvider';
 import * as React from 'react';
 
 function MainPage() {
   return (
-    <>
-      <Header />
-      <main>
+    <main>
+      <HeaderBgColorProvider>
+        <Header />
         <HeroSection />
         <CalloutSection />
         <WorkSection />
-        <NewsSection />
-        <Footer />
-      </main>
-    </>
+      </HeaderBgColorProvider>
+      <NewsSection />
+      <Footer />
+    </main>
   );
 }
 

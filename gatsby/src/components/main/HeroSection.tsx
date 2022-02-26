@@ -1,8 +1,13 @@
 import styled from '@emotion/styled';
-import { CREAM } from 'constants/color';
+import { CREAM, RED } from 'constants/color';
+import useChangeHeaderBgColor from 'hooks/useChangeHeaderBgColor';
+import { useRef } from 'react';
 
 function HeroSection() {
-  return <Section />;
+  const sectionRef = useRef<HTMLElement>(null);
+  useChangeHeaderBgColor({ sectionRef, currentColor: CREAM, nextColor: RED });
+
+  return <Section ref={sectionRef} />;
 }
 
 const Section = styled.section`
