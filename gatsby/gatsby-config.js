@@ -7,7 +7,9 @@ module.exports = {
     title: `까치당`,
     description: `까치당의 작업을 소개하고 기록을 보관하는 사이트`,
     twitter: `@kkachidang`,
+    siteUrl: 'https://kkachidang.com',
   },
+  trailingSlash: `always`,
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-plugin-image',
