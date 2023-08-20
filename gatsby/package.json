@@ -50,6 +50,27 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
   },
+  "resolutions": {
+    "@lmdb/lmdb-darwin-arm64": "npm:empty-npm-package",
+    "@lmdb/lmdb-linux-arm": "npm:empty-npm-package",
+    "@lmdb/lmdb-linux-arm64": "npm:empty-npm-package",
+    "@lmdb/lmdb-linux-x64": "npm:empty-npm-package",
+    "@lmdb/lmdb-win32-x64": "npm:empty-npm-package",
+    "@parcel/watcher-android-arm64": "npm:empty-npm-package",
+    "@parcel/watcher-darwin-arm64": "npm:empty-npm-package",
+    "@parcel/watcher-linux-arm-glibc": "npm:empty-npm-package",
+    "@parcel/watcher-linux-arm64-glibc": "npm:empty-npm-package",
+    "@parcel/watcher-linux-arm64-musl": "npm:empty-npm-package",
+    "@parcel/watcher-linux-x64-glibc": "npm:empty-npm-package",
+    "@parcel/watcher-linux-x64-musl": "npm:empty-npm-package",
+    "@parcel/watcher-win32-x64": "npm:empty-npm-package",
+    "@parcel/watcher-win32-arm64": "npm:empty-npm-package",
+    "@msgpackr-extract/msgpackr-extract-darwin-arm64": "npm:empty-npm-package",
+    "@msgpackr-extract/msgpackr-extract-linux-arm": "npm:empty-npm-package",
+    "@msgpackr-extract/msgpackr-extract-linux-arm64": "npm:empty-npm-package",
+    "@msgpackr-extract/msgpackr-extract-linux-x64": "npm:empty-npm-package",
+    "@msgpackr-extract/msgpackr-extract-win32-x64": "npm:empty-npm-package"
+  },
   "browserslist": [
     ">0.25%",
     "not dead and supports es6-module"
